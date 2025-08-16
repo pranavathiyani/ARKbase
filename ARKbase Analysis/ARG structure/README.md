@@ -30,9 +30,9 @@ foldseek databases PDB pdb tmp
 ## Search Against Foldseek Database (PDB)
 
 ```bash
-foldseek easy-search AFDB_Mab-4917 <query> \
+foldseek easy-search <query PDBs> \
 	fs_db/PDB_foldseek <target> \
-    Mab_AFDB_Vs_PDB_GBH.m8 <result> tmp \
+    AFDB_Vs_PDB_GBH.m8 <result> tmp \
     --greedy-best-hits 1 \
     --format-output query,target,pident,qcov,tcov,qstart,qend,qlen,tstart,tend,tlen,alnlen,evalue,bits,lddt,lddtfull,qtmscore,ttmscore,alntmscore,rmsd,prob \
     --format-mode 4 \
